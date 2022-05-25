@@ -1,0 +1,47 @@
+.footer {
+  background-color: #f4f4f4;
+  padding-top: 41px;
+
+  &-powered-by {
+    display: flex;
+    gap: 0 6px;
+    justify-content: center;
+    align-items: center;
+
+    &-text {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.202132px;
+      color: #858585;
+    }
+
+    &-img {
+      img {
+        max-width: 80px;
+        max-height: 22px;
+      }
+    }
+  }
+
+  &-copy-right {
+    margin-top: 24px;
+
+    p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: 0.202132px;
+      color: #858585;
+
+      .underline {
+        text-decoration: underline;
+      }
+    }
+  }
+}

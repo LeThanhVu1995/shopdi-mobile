@@ -1,0 +1,104 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  height: 1240px;
+  padding: 0 16px;
+  position: relative;
+
+  &-bottom {
+    margin-top: auto;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 48px;
+      align-items: center;
+      text-align: center;
+      color: #0C2C41;
+      width: 314px;
+
+      span {
+        filter: blur(2px);
+        -webkit-filter: blur(2px);
+      }
+    }
+
+    &-description {
+      margin-top: 17px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 23px;
+      text-align: center;
+      color: #0C2C41;
+    }
+  }
+
+  &-content {
+    display: flex;
+    justify-content: center;
+
+    h1 {
+      width: 314px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 23.4633px;
+      line-height: 31px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 32px;
+    }
+  }
+
+  &-intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    &-text {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 18px;
+      color: #ffffff;
+      margin-right: 6px;
+    }
+
+    &-icon {
+      max-width: 20px;
+      max-height: 20px;
+    }
+  }
+
+  &-app {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px 0px;
+    align-items: center;
+
+    &-apple {
+      img {
+        max-width: 176px;
+        max-height: 51px;
+      }
+    }
+
+    &-google {
+      img {
+        max-height: 51px;
+        max-width: 176px;
+      }
+    }
+  }
+}

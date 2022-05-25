@@ -1,0 +1,45 @@
+body {
+  line-height: 1;
+  font-family: $font;
+  background-color: black;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-family: $font;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+main {
+  background-color: white;
+
+}
+
+.main {
+  background-image: url(./../images/BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -46px;
+  padding-top: 80px;
+  // position: relative;
+
+  // .bg-main {
+  //   position: absolute;
+  //   pointer-events: none;
+  //   left: 0;
+  //   top: 0;
+  // }
+
+}
