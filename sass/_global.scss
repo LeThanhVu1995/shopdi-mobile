@@ -1,8 +1,6 @@
 body {
   line-height: 1;
   font-family: $font;
-  background-color: black;
-  max-width: 375px;
   margin: 0 auto;
 }
 
@@ -24,14 +22,12 @@ html {
 
 main {
   background-color: white;
-
 }
 
 .main {
   background-image: url(./../images/BG.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -46px;
   padding-top: 80px;
   // position: relative;
 
@@ -41,5 +37,10 @@ main {
   //   left: 0;
   //   top: 0;
   // }
+}
 
+@media only screen and (max-width: 374px) {
+  .main {
+    background-size: contain;
+  }
 }

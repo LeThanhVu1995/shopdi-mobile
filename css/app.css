@@ -53,8 +53,6 @@ img {
 body {
   line-height: 1;
   font-family: "Comfortaa", cursive;
-  background-color: black;
-  max-width: 375px;
   margin: 0 auto;
 }
 
@@ -82,10 +80,14 @@ main {
   background-image: url(./../images/BG.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -46px;
   padding-top: 80px;
 }
 
+@media only screen and (max-width: 374px) {
+  .main {
+    background-size: contain;
+  }
+}
 @font-face {
   font-family: "icomoon";
   src: url("../fonts/icomoon.eot?c5oqub");
@@ -199,7 +201,6 @@ main {
   max-height: 20px;
 }
 .navbar-row-column-language-text {
-  font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -212,7 +213,6 @@ main {
   max-height: 22px;
 }
 .navbar-row-column-button {
-  font-family: Manrope;
   padding: 7px 22px;
   background: #fdd116;
   border-radius: 43.1676px;
@@ -247,16 +247,16 @@ nav {
 .banner {
   display: flex;
   flex-direction: column;
-  height: 1240px;
+  height: 345vw;
   padding: 0 16px;
   position: relative;
 }
 .banner-bottom {
-  margin-top: auto;
-  padding-bottom: 80px;
+  transform: translate(0, -50%);
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: auto;
 }
 .banner-bottom-title {
   font-style: normal;
@@ -265,7 +265,6 @@ nav {
   line-height: 48px;
   display: flex;
   align-items: center;
-  font-family: Inter;
   text-align: center;
   color: #0c2c41;
   width: 314px;
@@ -277,7 +276,6 @@ nav {
 }
 .banner-bottom-description {
   margin-top: 17px;
-  font-family: Comfortaa;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -307,7 +305,6 @@ nav {
   justify-content: center;
 }
 .banner-intro-text {
-  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 700;
   font-size: 13px;
@@ -358,7 +355,6 @@ nav {
 }
 .business-list-item-title {
   margin-top: 8px;
-  font-family: Manrope;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -371,7 +367,6 @@ nav {
 }
 .business-list-item-description {
   margin-top: 18px;
-  font-family: Comfortaa;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -391,7 +386,6 @@ nav {
   align-items: center;
 }
 .footer-powered-by-text {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -408,7 +402,6 @@ nav {
   padding-bottom: 41px;
 }
 .footer-copy-right p {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
