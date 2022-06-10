@@ -17,10 +17,13 @@
       font-weight: 600;
       font-size: 40px;
       line-height: 48px;
+      display: flex;
       align-items: center;
+      font-family: Inter;
       text-align: center;
-      color: #0C2C41;
+      color: #0c2c41;
       width: 314px;
+      justify-content: center;
 
       span {
         filter: blur(2px);
@@ -30,13 +33,14 @@
 
     &-description {
       margin-top: 17px;
-      font-family: Roboto;
+      font-family: Comfortaa;
       font-style: normal;
       font-weight: 400;
-      font-size: 15px;
-      line-height: 23px;
+      font-size: 16px;
+      line-height: 142%;
       text-align: center;
-      color: #0C2C41;
+      letter-spacing: -0.5px;
+      color: #0c2c41;
     }
   }
 
@@ -47,7 +51,7 @@
     h1 {
       font-style: normal;
       font-weight: 600;
-      font-size: 30px;
+      font-size: 32px;
       line-height: 40px;
       display: flex;
       align-items: center;
@@ -63,9 +67,9 @@
     justify-content: center;
 
     &-text {
-      font-family: Roboto;
+      font-family: $font;
       font-style: normal;
-      font-weight: 400;
+      font-weight: 700;
       font-size: 13px;
       line-height: 18px;
       color: #ffffff;

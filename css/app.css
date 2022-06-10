@@ -52,7 +52,7 @@ img {
 
 body {
   line-height: 1;
-  font-family: "Inter", cursive;
+  font-family: "Comfortaa", cursive;
   background-color: black;
   max-width: 375px;
   margin: 0 auto;
@@ -62,7 +62,7 @@ button {
   cursor: pointer;
   outline: none;
   border: none;
-  font-family: "Inter", cursive;
+  font-family: "Comfortaa", cursive;
 }
 
 html {
@@ -156,7 +156,7 @@ main {
 }
 
 .navbar {
-  background-color: #0c2c41;
+  background-color: #2f3d4a;
   padding: 16px 16px 16px 16px;
 }
 .navbar .download {
@@ -199,6 +199,7 @@ main {
   max-height: 20px;
 }
 .navbar-row-column-language-text {
+  font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -211,6 +212,7 @@ main {
   max-height: 22px;
 }
 .navbar-row-column-button {
+  font-family: Manrope;
   padding: 7px 22px;
   background: #fdd116;
   border-radius: 43.1676px;
@@ -233,7 +235,7 @@ nav {
   position: sticky;
   top: 0;
   left: 0;
-  background: rgba(12, 44, 65, 0.9215686275);
+  background: #2f3d4a;
 }
 .fixed-menu .download {
   display: block;
@@ -261,10 +263,13 @@ nav {
   font-weight: 600;
   font-size: 40px;
   line-height: 48px;
+  display: flex;
   align-items: center;
+  font-family: Inter;
   text-align: center;
-  color: #0C2C41;
+  color: #0c2c41;
   width: 314px;
+  justify-content: center;
 }
 .banner-bottom-title span {
   filter: blur(2px);
@@ -272,13 +277,14 @@ nav {
 }
 .banner-bottom-description {
   margin-top: 17px;
-  font-family: Roboto;
+  font-family: Comfortaa;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 23px;
+  font-size: 16px;
+  line-height: 142%;
   text-align: center;
-  color: #0C2C41;
+  letter-spacing: -0.5px;
+  color: #0c2c41;
 }
 .banner-content {
   display: flex;
@@ -287,7 +293,7 @@ nav {
 .banner-content h1 {
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 32px;
   line-height: 40px;
   display: flex;
   align-items: center;
@@ -301,9 +307,9 @@ nav {
   justify-content: center;
 }
 .banner-intro-text {
-  font-family: Roboto;
+  font-family: "Comfortaa", cursive;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 13px;
   line-height: 18px;
   color: #ffffff;
@@ -351,25 +357,26 @@ nav {
   max-height: 68px;
 }
 .business-list-item-title {
-  margin-top: 24px;
+  margin-top: 8px;
+  font-family: Manrope;
   font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 125%;
   display: flex;
   align-items: center;
   text-align: center;
+  letter-spacing: -1px;
   color: #0c2c41;
 }
 .business-list-item-description {
-  margin-top: 16px;
-  font-family: Roboto;
+  margin-top: 18px;
+  font-family: Comfortaa;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 135%;
   text-align: center;
-  letter-spacing: 0.202132px;
   color: #0c2c41;
 }
 
@@ -398,6 +405,7 @@ nav {
 }
 .footer-copy-right {
   margin-top: 24px;
+  padding-bottom: 41px;
 }
 .footer-copy-right p {
   font-family: Roboto;

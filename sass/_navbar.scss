@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #0c2c41;
+  background-color: #2f3d4a;
   padding: 16px 16px 16px 16px;
 
   .download {
@@ -47,6 +47,7 @@
         }
 
         &-text {
+          font-family: Inter;
           font-style: normal;
           font-weight: 500;
           font-size: 14px;
@@ -64,6 +65,7 @@
       }
 
       &-button {
+        font-family: Manrope;
         padding: 7px 22px;
         background: #fdd116;
         border-radius: 43.1676px;
@@ -79,7 +81,7 @@
 }
 
 nav {
-  transition: all .5s;
+  transition: all 0.5s;
   width: 100%;
   z-index: 2;
   top: -65px;
@@ -89,7 +91,7 @@ nav {
   position: sticky;
   top: 0;
   left: 0;
-  background: #0c2c41eb;
+  background: #2f3d4a;
 
   .download {
     display: block;
