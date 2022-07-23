@@ -251,6 +251,14 @@ nav {
   padding: 0 16px;
   position: relative;
 }
+.banner #countdown {
+  color: white;
+  font-size: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 64px;
+}
 .banner-bottom {
   transform: translate(0, -50%);
   display: flex;
