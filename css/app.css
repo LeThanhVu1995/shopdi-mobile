@@ -80,7 +80,8 @@ main {
   background-image: url(./../images/BG.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 80px;
+  padding-top: 25px;
+  background-position-y: bottom;
 }
 
 @media only screen and (max-width: 374px) {
@@ -247,7 +248,7 @@ nav {
 .banner {
   display: flex;
   flex-direction: column;
-  height: 345vw;
+  height: 305vw;
   padding: 0 16px;
   position: relative;
 }
