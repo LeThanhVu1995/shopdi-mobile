@@ -248,7 +248,7 @@ nav {
 .banner {
   display: flex;
   flex-direction: column;
-  height: 305vw;
+  height: 290vw;
   padding: 0 16px;
   position: relative;
 }
@@ -258,7 +258,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 64px;
+  margin-top: 32px;
 }
 .banner-bottom {
   transform: translate(0, -50%);
